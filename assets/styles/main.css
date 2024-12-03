@@ -105,6 +105,7 @@ header nav ul li .signup-link {
   border-radius: 5px;
 }
 header nav ul li select {
+  background-color: transparent;
   border: none;
   outline: none;
 }
