@@ -21,6 +21,9 @@
 a {
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+}
 .container {
   padding: 0 15px;
   margin: auto;
@@ -104,4 +107,54 @@ header nav ul li .signup-link {
 header nav ul li select {
   border: none;
   outline: none;
+}
+.hero {
+  height: calc(100vh - 134px);
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .hero .info {
+    width: 50%;
+  }
+}
+.hero .info .welcome-message {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--jelly-bean);
+  margin-bottom: 20px;
+}
+.hero .info h1 {
+  font-family: "Volkhov", serif;
+  font-size: 64px;
+  letter-spacing: -4%;
+  color: var(--space-cadet);
+}
+.hero .info .enjoy {
+  position: relative;
+}
+.hero .info .enjoy::after {
+  content: "";
+  position: absolute;
+  left: -30px;
+  bottom: 0px;
+  width: calc(100% + 100px);
+  height: 10px;
+  background-image: url(../images/Decore.png);
+  z-index: -1;
+}
+
+.hero .image .blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+@media (max-width: 991px) {
+  .hero .image {
+    display: none;
+  }
 }
