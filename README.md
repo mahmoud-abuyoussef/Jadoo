@@ -20,6 +20,6 @@
 - ### Deployment
   - ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
-**Design From Figma Community**
+**Design by Figma Community**
 
 ![Home Page](https://github.com/mahmoud-abuyoussef/Jadoo/blob/main/design/Jadoo.png)
