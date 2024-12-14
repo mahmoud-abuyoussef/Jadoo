@@ -69,11 +69,14 @@ header nav ul {
     position: absolute;
     top: 30px;
     right: 0;
+    min-width: 200px;
     display: none;
     background-color: var(--white);
+    z-index: 2;
   }
-  header nav ul li {
-    padding: 10px 0;
+  header nav ul li a {
+    display: block;
+    padding: 10px;
     border-bottom: 1px solid rgb(0 0 0 / 0.1);
   }
 }
